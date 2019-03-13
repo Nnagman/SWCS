@@ -111,6 +111,10 @@ body {
   margin-top: 20px;
 }
 
+.g-signin2{
+	margin-top: 40px;
+}
+
 .form-panel {
   padding: 60px calc(5% + 60px) 60px 60px;
   box-sizing: border-box;

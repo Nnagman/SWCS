@@ -1,13 +1,15 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-
-
+<script src="https://apis.google.com/js/platform.js" async defer></script>
+<meta name="google-signin-client_id" content="779149147-gv0m3u9gu0msd4hj0ojs1tb3clkpmnrn.apps.googleusercontent.com">
+<link rel="stylesheet" type="text/css" href="resources/css/login.css">
+<link rel="javascript" htef="resources/js/googleRESTAPI.js">
 <!doctype html>
 <html lang="kr">
 	<head>
 	<meta charset="UTF-8">
 	<title>프로알바 로그인</title>
-	<link rel="stylesheet" type="text/css" href="resources/css/login.css">
+
 </head>
 <body>
 
@@ -41,6 +43,7 @@
         <div class="form-group">
           <button type="submit">Log In</button>
         </div>
+        <div class="g-signin2" data-onsuccess="onSignIn"></div>
       </form>
     </div>
   </div>

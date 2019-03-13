@@ -1,9 +1,9 @@
-<%@ page language="java" contentType="text/html; charset=EUC-KR"
-    pageEncoding="EUC-KR"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="EUC-KR">
+<meta charset="UTF-8">
 <title>Insert title here</title>
   <script src="https://apis.google.com/js/platform.js" async defer></script>
     <meta name="google-signin-client_id" content="779149147-gv0m3u9gu0msd4hj0ojs1tb3clkpmnrn.apps.googleusercontent.com">
