@@ -41,12 +41,14 @@
           <input type="password" id="password" name="password" required="required"/>
         </div>
         <div class="form-group">
-          <button type="submit">Log In</button>
+          <button type="submit">로그인</button>
+          <button id="sign-up">회원가입</button>
         </div>
         <div class="g-signin2" data-onsuccess="onSignIn"></div>
       </form>
     </div>
   </div>
+
 </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
