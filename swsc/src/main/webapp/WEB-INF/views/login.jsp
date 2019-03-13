@@ -6,7 +6,7 @@
 <html lang="kr">
 	<head>
 	<meta charset="UTF-8">
-	<title>알바월드 로그인</title>
+	<title>프로알바 로그인</title>
 	<link rel="stylesheet" type="text/css" href="resources/css/login.css">
 </head>
 <body>
@@ -37,9 +37,6 @@
         <div class="form-group">
           <label for="password">Password</label>
           <input type="password" id="password" name="password" required="required"/>
-        </div>
-        <div class="form-group">
-          <label class="form-remember">
         </div>
         <div class="form-group">
           <button type="submit">Log In</button>
