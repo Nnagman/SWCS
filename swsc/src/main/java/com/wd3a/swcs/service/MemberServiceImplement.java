@@ -24,7 +24,7 @@ public class MemberServiceImplement implements MemberService {
 
 	@Override
 	public boolean loginCheck(MemberVO vo, HttpSession session) {
-		// TODO Auto-generated method stub
+		boolean result = member
 		return false;
 	}
 

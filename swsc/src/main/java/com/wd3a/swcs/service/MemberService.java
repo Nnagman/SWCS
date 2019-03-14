@@ -9,5 +9,6 @@ import com.wd3a.swcs.domain.MemberVO;
 public interface MemberService {
 	
 	public boolean loginCheck(MemberVO vo, HttpSession session);
+	
 	public ArrayList<MemberVO> getList();
 }
