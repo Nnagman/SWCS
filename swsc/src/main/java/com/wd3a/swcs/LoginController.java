@@ -29,11 +29,12 @@ public class LoginController {
 		return "login";
 	}
 	
-	@RequestMapping(value = "/logincheck", method = RequestMethod.GET)
-	public ModelAndView loginCheck(@ModelAttribute MemberVO vo, HttpSession session) {
-		boolean result = MemberService.loginCheck(vo, session);
-		return null;
-		
-	}
+	/*
+	 * @RequestMapping(value = "/logincheck", method = RequestMethod.GET) public
+	 * ModelAndView loginCheck(@ModelAttribute MemberVO vo, HttpSession session) {
+	 * boolean result = MemberService.loginCheck(vo, session); return null;
+	 * 
+	 * }
+	 */
 	
 }
