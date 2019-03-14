@@ -39,4 +39,16 @@ public class MemberServiceImplement implements MemberService {
 	        return result;
 	}
 
+	@Override
+	public MemberVO viewMember(MemberVO vo) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void logout(HttpSession session) {
+		// TODO Auto-generated method stub
+		
+	}
+
 }
