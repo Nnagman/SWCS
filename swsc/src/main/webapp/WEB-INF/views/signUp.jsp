@@ -14,7 +14,7 @@
  <head>
    <meta charset="UTF-8">
    <title>회원가입</title>
-   <script>
+   <!-- <script>
    function execDaumPostcode(){
 		 new daum.Postcode({
 	         oncomplete: function(data) {
@@ -62,7 +62,7 @@
 	         }
 	     }).open();
 	 }
-   </script>
+   </script> -->
  </head>
  <body>
  <form name="signUpForm" method="post"  action="">

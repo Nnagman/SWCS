@@ -23,4 +23,15 @@ public class LoginController {
 		return "login";
 	}
 	
+<<<<<<< HEAD
+=======
+	/*
+	 * @RequestMapping(value = "/logincheck", method = RequestMethod.GET) public
+	 * ModelAndView loginCheck(@ModelAttribute MemberVO vo, HttpSession session) {
+	 * boolean result = MemberService.loginCheck(vo, session); return null;
+	 * 
+	 * }
+	 */
+	
+>>>>>>> branch 'master' of https://github.com/Nnagman/SWCS.git
 }
