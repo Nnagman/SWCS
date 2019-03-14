@@ -3,7 +3,7 @@
 <script src="https://apis.google.com/js/platform.js" async defer></script>
 <meta name="google-signin-client_id" content="779149147-gv0m3u9gu0msd4hj0ojs1tb3clkpmnrn.apps.googleusercontent.com">
 <link rel="stylesheet" type="text/css" href="resources/css/login.css">
-<link rel="javascript" htef="resources/js/googleRESTAPI.js">
+<link rel="javascript" href="resources/js/googleRESTAPI.js">
 <!doctype html>
 <html lang="kr">
 	<head>
