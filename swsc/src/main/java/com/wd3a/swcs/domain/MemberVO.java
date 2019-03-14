@@ -6,12 +6,10 @@ import lombok.Data;
 
 @Data
 public class MemberVO {
-	private String cid;
-	private String name;
-	private Date birthday;
-	private String password;
-	private String telephone;
-	private String email;
-	private String address;
-	private Timestamp timestamp;
+	private String userId;
+    private String userPw;
+    private String userName; 
+    private String userEmail; 
+    private Date userRegdate; // java.sql.Date
+    private Date userUpdatedate;
 }

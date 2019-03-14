@@ -19,12 +19,12 @@ public class LoginController {
 	
 	private static final Logger logger = LoggerFactory.getLogger(LoginController.class);
 	
-	private MemberService orclService;
+	private MemberService memberService;
 	
 	@RequestMapping(value = "/login", method = RequestMethod.GET)
 	public String login(Model model) {
 		
-		model.addAttribute("list", orclService.getList());
+		model.addAttribute("list", memberService.getList());
 		
 		return "login";
 	}
